@@ -15,4 +15,4 @@ datasets==2.14.5
 
 trl==0.7.4
 
-视频课程:制作中.
+视频课程:https://www.bilibili.com/video/BV1bu4y1w7Dz
