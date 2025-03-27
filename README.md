@@ -1,5 +1,8 @@
 # 补充: 
 我没有参考这个环境, 而是直接使用的rlhf哪个环境, 两者很接近, 其实rlhf这个环境也也可命名为`simple_rlhf_trl`
+在代码的基础上, 目录中还下载了imdb数据集tokenizer以及gpt2, 总共1.3GB左右
+补充.gitignore使用的问题, 不能写成`./model`, 而要写成`/model/`或者`model/`
+git缓存问题, 使用`git rm -r --cached .`删除所有缓存, 但慎用, 可以指定某个文件的缓存
 # 训练自然语言的LLM模型
 包括基于TRL的训练,和手动训练两种实现.
 
